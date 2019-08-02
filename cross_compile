@@ -1,0 +1,6 @@
+#!/bin/bash
+cd ktouch
+mkdir build
+cd build
+i686-w64-mingw32.static-cmake .. -DCMAKE_INSTALL_PREFIX=../install
+make
